@@ -1,8 +1,11 @@
 votoApruebo = 0
 votoRechazo = 0
 votoAbstencion = 0
+
 p = int(input("Ingrese el numero de parlamentarios: "))
+
 for i in range(p):
+
     voto = input("¿Cual fue su voto A=Apruebo R=Rechazo B=Abstencion? ").upper()
     if voto == "A":
         votoApruebo += 1
